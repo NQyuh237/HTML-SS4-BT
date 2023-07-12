@@ -1,0 +1,30 @@
+.icon {
+    width: 14rem;
+    height: 10.7rem;
+    background: url(abc.jpg) no-repeat;
+}
+
+.status {
+    height: 10.7rem;
+    display: flex;
+    align-items: center;
+    content: 300px;
+}
+
+.title {
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+    width: 18.35rem;
+    background-color: rgba(0, 0, 0, 0.199);
+    color: #fff;
+}
+
+h3 {
+    margin: 1rem 1rem 0rem 1rem;
+}
+
+.box {
+    width: 20rem;
+    height: 20rem;
+}

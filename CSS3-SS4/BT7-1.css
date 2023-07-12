@@ -1,0 +1,21 @@
+.box {
+    width: 10rem;
+    height: 10rem;
+    background-color: rgb(148, 148, 148);
+    color: white;
+    opacity: 0.5;
+    transition: opacity 0.4s
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.box:hover {
+    opacity: 1;
+}

@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.khung {
+    background-color: rgb(225, 67, 67);
+    width: 400px;
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    width: 360px;
+    display: flex;
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    width: 360px;
+    height: 250px;
+}
+
+.pre {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+
+.next {
+    position: absolute;
+    top: 150px;
+    right: 50px;
+}
+
+.dot {
+    position: absolute;
+    width: 100%;
+    bottom: 25px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 0 15px;
+}
